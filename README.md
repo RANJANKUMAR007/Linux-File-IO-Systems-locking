@@ -36,10 +36,10 @@ while((nread = read(in,block,sizeof(block))) > 0)
 write(out,block,nread);
 exit(0);}
 
-
+```
 
 ## 2.To Write a C program that illustrates files locking
-c
+```
 //C program that illustrates files locking goes here
 #include <fcntl.h>
 #include <stdio.h>
@@ -78,11 +78,10 @@ getchar();
 close (fd);
 return 0;
 }
-
 ```
 
-
 ## OUTPUT
+
 ### filecopy.o
 ![image-1](https://github.com/user-attachments/assets/7582ec6b-8160-4d87-a40a-7dc347961d38)
 
